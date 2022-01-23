@@ -3,7 +3,7 @@ on:
   push:
     branches: new_B
 jobs:
-  Build, change, commit and push into new_B:
+  Build_change_commit_and_push_into_new_B:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
