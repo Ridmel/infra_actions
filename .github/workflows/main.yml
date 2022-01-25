@@ -18,8 +18,5 @@ jobs:
       - name: Test with flake8 and django tests
         run: |
           python -m flake8
-      
-      - name: Self-developed tests
-        working-directory: ./infra_project/
-        run: python manage.py test
-        
+          cd infra_project/
+          python manage.py test
