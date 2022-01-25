@@ -20,6 +20,6 @@ jobs:
           python -m flake8
       
       - name: Self-developed tests
-        working-dirctory: ./infra_project/
+        working-directory: ./infra_project/
         run: python manage.py test
         
