@@ -2,14 +2,15 @@ name: ci
 
 on:
   push:
+    branches: [new_B]
 
 jobs:
   buildx:
     runs-on: ubuntu-latest
     steps:
-      -
-        name: Checkout
-        uses: actions/checkout@v2
+#      -
+#        name: Checkout
+#        uses: actions/checkout@v2
       -
         name: Set up Docker Buildx
         id: buildx
